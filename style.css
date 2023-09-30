@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 200px;
+}
+
+#current-image-container {
+    margin-bottom: 20px;
+}
+
+#current-image-container img {
+    width: 100%;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-history li {
+    cursor: pointer;
+}
+
+#search-history li:hover {
+    background-color: lightgray;
+}
+
+#image-description {
+    margin-top: 10px;
+}
